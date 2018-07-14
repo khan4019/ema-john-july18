@@ -1,0 +1,19 @@
+.header img{
+    height: 80px;
+}
+
+.menu{
+    line-height: 40px;
+    background-color: black;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.menu a:hover{
+    background-color: lightgray;
+}
