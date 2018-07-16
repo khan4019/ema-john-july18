@@ -4,7 +4,7 @@ import fakeData from '../../fakeData/index';
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
 import { addToDatabaseCart } from '../../utility/local-storage';
-
+import { Link } from 'react-router-dom';
 
 class Shop extends Component {
     constructor() {
@@ -37,7 +37,11 @@ class Shop extends Component {
                     }
                 </div>
                 <div className="cart-container">
-                   <Cart cart={this.state.cart}/>
+                   <Cart cart={this.state.cart}>
+                        <Link to="/review">
+                            <button>Review Order</button>
+                        </Link>
+                   </Cart>
                 </div>
             </div>
         );

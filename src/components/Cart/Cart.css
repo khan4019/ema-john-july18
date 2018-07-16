@@ -1,0 +1,13 @@
+.cart{
+    margin-left: 5px;
+    
+}
+.cart table{
+    font-size: 12px;
+}
+td:first-of-type{
+    text-align: left;
+}
+td:last-of-type{
+    text-align: right;
+}
